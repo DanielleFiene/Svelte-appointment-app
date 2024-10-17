@@ -27,6 +27,7 @@ a {
     text-decoration: none;
     cursor: pointer;
 	font-weight: 400;
+	text-transform: uppercase;
 }
 
 a::after {
