@@ -91,7 +91,7 @@
         border-radius: 12px;
         padding: 20px;
         margin: 0 auto;
-        max-width: 30%;
+        max-width: 70%;
         box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.6);
         margin-bottom: 40px;
     }
@@ -129,7 +129,7 @@
     /* Button wrapper to center the button */
     .button-wrapper {
         display: flex;
-        justify-content: center; /* Center the button horizontally */
+        justify-content: center;
     }
 
     /* Add contact button style */
