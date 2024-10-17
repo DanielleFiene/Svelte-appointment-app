@@ -57,6 +57,11 @@
     flex-direction: column;
 }
 
+.appointment-list p {
+    text-align: center;
+    color: #F0F0F0;
+}
+
 .appointment-list h2 {
     margin-bottom: 20px;
     font-weight: 600;
