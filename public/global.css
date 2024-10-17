@@ -18,6 +18,8 @@ body {
 	background: linear-gradient(to right, #73c8a9, #373b44);
 	line-height: 1.5;
 	letter-spacing: 0.15em;
+	display: flex;
+    justify-content: center;
 }
 
 a {
@@ -28,6 +30,10 @@ a {
     cursor: pointer;
 	font-weight: 400;
 	text-transform: uppercase;
+	border-radius: 8px;
+	padding: 15px;
+	box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.2);
+	font-weight: 700;
 }
 
 a::after {
@@ -37,7 +43,7 @@ a::after {
     transform: scaleX(0);
     border-radius: 5px;
     height: 0.05em;
-    bottom: 0;
+    bottom: 12px;
     left: 0;
     background: rgb(0,100,200);
     transform-origin: bottom right;

@@ -101,6 +101,7 @@
         font-weight: 600;
         font-size: 1.5rem;
         color: #2c3e50;
+        margin: 0 auto;
     }
 
     label {

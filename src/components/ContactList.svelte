@@ -55,7 +55,8 @@
 }
 
 .contact-list p {
-    text-align: center;
+  text-align: center;
+  color: #F0F0F0;
 }
 
 .highlight {

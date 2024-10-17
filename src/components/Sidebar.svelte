@@ -18,7 +18,7 @@
         padding: 20px;
         border-right: 1px solid #ddd;
         height: 100vh; /* Full height */
-        width: 200px; /* Fixed width for sidebar */
+        width: 250px; /* Fixed width for sidebar */
         position: fixed; /* Keep sidebar fixed */
         top: 0;
         left: 0;

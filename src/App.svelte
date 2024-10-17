@@ -22,15 +22,16 @@
 <style>
     main {
         display: flex;
+        justify-content: center;
 		flex-direction: column;
         padding: 1em;
-        max-width: 1500px; /* Increased width to accommodate sidebar */
+        max-width: 1500px; 
         margin: 0 auto;
     }
 
 	h1 {
     position: relative;
-    margin-left: 100px;
+    margin-left: 150px;
     display: flex;
     justify-content: center;
     text-align: center;
