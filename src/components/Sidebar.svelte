@@ -1,4 +1,3 @@
-<!-- Sidebar.svelte -->
 <script>
     import { Link } from 'svelte-routing';
 </script>
@@ -17,18 +16,24 @@
         background-color: #f8f9fa;
         padding: 20px;
         border-right: 1px solid #ddd;
-        height: 100vh; /* Full height */
-        width: 250px; /* Fixed width for sidebar */
-        position: fixed; /* Keep sidebar fixed */
+        height: 100vh; 
+        width: 250px; 
+        position: fixed;
         top: 0;
         left: 0;
     }
 
     .sidebar nav {
-    display: flex;          /* Enable flexbox for the nav */
-    flex-direction: column; /* Stack links vertically */
-    justify-content: space-around; /* Center links horizontally */
-    flex-grow: 1;           /* Make the nav take full width */
-}
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around; 
+        flex-grow: 1;
+    }
 
+    /* Hide the sidebar on small screens */
+    @media (max-width: 999px) {
+        .sidebar {
+            display: none; /* Hide sidebar */
+        }
+    }
 </style>

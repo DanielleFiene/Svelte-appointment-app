@@ -91,7 +91,7 @@
         border-radius: 12px;
         padding: 20px;
         margin: 0 auto;
-        max-width: 70%;
+        width: 70%;
         box-shadow: 0 0 40px 20px rgba(0, 0, 0, 0.6);
         margin-bottom: 40px;
     }
@@ -158,5 +158,14 @@
         transform: scale(0.95); 
         background-color: #1f639b; 
         box-shadow: none;
+    }
+
+    @media (min-width: 500px) and (max-width: 999px) {
+        .contact-form {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
     }
 </style>

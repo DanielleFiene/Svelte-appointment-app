@@ -135,7 +135,7 @@
 
     /* Add appointment button style */
     button {
-        width: 30%;
+        width: 80%;
         background-color: #3498db; 
         color: white; 
         border: none;

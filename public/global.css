@@ -95,3 +95,12 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+@media (max-width: 1000px) {
+    a {
+        font-size: 0.5em;               
+        padding: auto; 
+		max-width: 110px; 
+		background-color: #f8f9fa;              
+    }
+}

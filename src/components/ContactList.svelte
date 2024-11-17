@@ -38,9 +38,8 @@
 </div>
 
 <style>
-/* Contact List Styles */
-.contact-list {
-    max-width: 80%;
+/* Contact List Styles */.contact-list {
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -64,7 +63,7 @@
 }
 
 .highlight2 { /* Set color for the last letters */
-	color: #F0F0F0; 
+    color: #F0F0F0; 
 }
 
 ul {
@@ -135,6 +134,117 @@ li button:active {
     transform: scale(0.95);
     background-color: #732219;
     box-shadow: none;
+}
+
+@media (min-width: 1300px) and (max-width: 1900px) {
+    .contact-list {
+        width: 700px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-name {
+        max-width: 150px; 
+    }
+
+    li {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .contact-details {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    li button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px) {
+    .contact-list {
+        width: 400px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-name {
+        max-width: 150px; 
+    }
+
+    li {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .contact-details {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    li button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+@media (min-width: 500px) and (max-width: 999px) {
+    .contact-list {
+        width: 400px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-name {
+        max-width: 150px; 
+    }
+
+    li {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .contact-details {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    li button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 499px) {
+    .contact-list {
+        width: 400px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-name {
+        max-width: 150px; 
+    }
+
+    li {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .contact-details {
+        flex-direction: column; 
+        margin-bottom: 10px; 
+    }
+
+    li button {
+        margin-top: 10px; 
+        width: 100%; 
+    }
 }
 
 </style>
