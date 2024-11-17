@@ -20,7 +20,12 @@ deployment: https://contact-and-appointment-manager.vercel.app/
 
 ## Features
 
-- Add, edit, and delete appointments
+- Add and delete contacts
+- Use the contacts you have made to the appointment data
+- Responsive design for mobile and desktop users
+- Store contacts in local storage for persistence
+
+- Add and delete appointments
 - View upcoming appointments in a user-friendly interface
 - Responsive design for mobile and desktop users
 - Store appointments in local storage for persistence
